@@ -486,7 +486,14 @@ html{
     font-family: 'Righteous';
     text-align: center;
     padding: 20px 0;
+
 }
+
+.portfolio h2 a {
+    text-decoration: none;
+    color: #fff;
+}
+
 .portfolio .galeria{
     display: flex;
     flex-wrap: wrap;
