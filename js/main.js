@@ -1,5 +1,5 @@
 let menuVisible = false;
-//Función que oculta o muestra el menu
+
 function mostrarOcultarMenu(){
     if(menuVisible){
         document.getElementById("nav").classList ="";
@@ -11,11 +11,11 @@ function mostrarOcultarMenu(){
 }
 
 function seleccionar(){
-    //oculto el menu una vez que selecciono una opcion
+
     document.getElementById("nav").classList = "";
     menuVisible = false;
 }
-//Funcion que aplica las animaciones de las habilidades
+
 function efectoHabilidades() {
     let skills = document.getElementById("skills");
     let distancia_skills = window.innerHeight - skills.getBoundingClientRect().top;
@@ -29,7 +29,35 @@ function efectoHabilidades() {
     }
 }
 
-//detecto el scrolling para aplicar la animacion de la barra de habilidades
+
 window.onscroll = function(){
     efectoHabilidades();
 } 
+
+document.addEventListener('DOMContentLoaded', function () {
+    let checks = document.querySelectorAll(".check, .check2"); // Selecciona ambos checkboxes
+    checks.forEach(function(check) {
+        check.addEventListener('click', idioma);
+    });
+
+    function idioma() {
+        // Accede al checkbox que desencadenó el evento
+        let id = this.checked;
+
+        if (id == true) {
+            if (window.location.pathname.includes("ingles.html")) {
+                location.href = "../index.html";
+            } else {
+                location.href = "pages/ingles.html";
+            }
+        } else {
+            if (window.location.pathname.includes("ingles.html")) {
+                location.href = "index.html";
+            } else {
+                location.href = "../index.html";
+            }
+        }
+    }
+});
+
+

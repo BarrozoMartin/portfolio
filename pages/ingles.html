@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
     <title>Portfolio | Barrozo Martin</title>
-    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="../css/styles.css">
 </head>
 <body>
     <!-- MENU ENCABEZADO -->
@@ -17,23 +17,21 @@
             </div>
             <nav id="nav">
                 <ul>
-                    <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
-                    <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
-                    <li><a href="#skills" onclick="seleccionar()">HABILIDADES</a></li>
+                    <li><a href="#inicio" onclick="seleccionar()">HOME</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">ABOUT ME</a></li>
+                    <li><a href="#skills" onclick="seleccionar()">SKILLS</a></li>
                     <li><a href="#curriculum" onclick="seleccionar()">CURRICULUM</a></li>
-                    <li><a href="#portfolio" onclick="seleccionar()">PORTAFOLIO</a></li>
-                    <li><a href="#contacto" onclick="seleccionar()">CONTACTO</a></li>
+                    <li><a href="#portfolio" onclick="seleccionar()">PORTFOLIO</a></li>
+                    <li><a href="#contacto" onclick="seleccionar()">CONTACT</a></li>
                 </ul>
             </nav>
 
             <div id="language-buttons">
-                <span class="es">Español</span>
-                <input type="checkbox" class="check" id="language-switch">
-                <span class="en">Inglés</span>
+                <span class="es">Spanish</span>
+                <input type="checkbox" class="check2" id="language-switch">
+                <span class="en">English</span>
             </div>
-            
-                     
-              
+                
             <div class="nav-responsive" onclick="mostrarOcultarMenu()">
                 <i class="bi bi-list"></i>
             </div>
@@ -44,10 +42,10 @@
     <section id="inicio" class="inicio">
         <div class="contenido-banner">
             <div class="contenedor-img">
-                <img src="./images/Perfil/foto.png" alt="foto perfil Barrozo Martin">
+                <img src="../images/Perfil/foto.png" alt="foto perfil Barrozo Martin">
             </div>
             <h1>BARROZO MARTIN</h1>
-            <h2>Programador Frontend</h2>
+            <h2>Frontend Developer</h2>
             <div class="redes">
                 <a href="https://www.instagram.com/barrozo.martin91/?igshid=OGQ5ZDc2ODk2ZA%3D%3D"><i class="bi bi-instagram"></i></a>
                 <a href="https://www.linkedin.com/in/martin-barrozo-b44217213/"><i class="bi bi-linkedin"></i></a>
@@ -59,24 +57,22 @@
     <!-- SECCION SOBRE MI -->
     <section id="sobremi" class="sobremi">
         <div class="contenido-seccion">
-            <h2>Sobre Mí</h2>
+            <h2>About Me</h2>
     
             <p>
-                <span>Hola, soy Barrozo Martin.</span> un apasionado desarrollador web con experiencia en HTML, CSS y JavaScript. Mi enfoque se centra en la creación de interfaces de usuario atractivas y funcionales. 
-                Además, domino tecnologías modernas como ReactJS, Sass y Bootstrap para construir aplicaciones web interactivas. 
-                Mi objetivo es seguir aprendiendo y creciendo en el mundo del desarrollo web para ofrecer soluciones innovadoras y de alta calidad.
+                <span>Hello, I'm Barrozo Martin.</span> I'm a passionate web developer with experience in HTML, CSS, and JavaScript. My focus is on creating attractive and functional user interfaces. I also master modern technologies like ReactJS, Sass, and Bootstrap to build interactive web applications. My goal is to continue learning and growing in the web development world to deliver innovative and high-quality solutions.
               </p>
             <div class="fila">
-                <!-- datos personales -->
+                <!-- Personal Information -->
                 <div class="col">
-                    <h3>Datos Personales</h3>
+                    <h3>Personal Information</h3>
                     <ul>
                         <li>
-                            <strong>Fecha de nacimiento</strong>
+                            <strong>Date of Birth</strong>
                             09-04-1991
                         </li>
                         <li>
-                            <strong>Teléfono</strong>
+                            <strong>Phone</strong>
                             +54 341 381-6364
                         </li>
                         <li>
@@ -84,53 +80,53 @@
                             barrozomartin91@hotmail.com
                         </li>
                         <li>
-                            <strong>Dirección</strong>
+                            <strong>Address</strong>
                             junin 5530 Santa Fe, Rosario, Argentina
                         </li>
                         <li>
-                            <strong>Cargo</strong>
+                            <strong>Role</strong>
                             <span>FREELANCE</span>
                         </li>
                     </ul>
                 </div>
 
-                <!-- intereses -->
+                <!-- Interests -->
                 <div class="col">
-                    <h3>Intereses</h3>
+                    <h3>Interests</h3>
                     <div class="contenedor-intereses">
                         <div class="interes">
                             <i class="bi bi-joystick"></i>
-                            <span>JUEGOS</span>
+                            <span>Video Games</span>
                         </div>
                         <div class="interes">
                             <i class="bi bi-file-earmark-music-fill"></i>
-                            <span>MUSICA</span>
+                            <span>Music</span>
                         </div>
                         <div class="interes">
                             <i class="bi bi-airplane"></i>
-                            <span>VIAJAR</span>
+                            <span>Traveling</span>
                         </div>
                         
                     </div>
                 </div>
             </div>
             <button>
-                <a href="./source/CURRICULUM VITAE BARROZO MARTIN.pdf" download=""> Descargar CV <i class="bi bi-download"></i></a>
+                <a href="../source/CURRICULUM VITAE BARROZO MARTIN.pdf" download=""> Descargar CV <i class="bi bi-download"></i></a>
                 <span class="overlay"></span>
             </button>
         </div>
     </section>
 
-    <!-- SECCION HABILIDADES -->
+    <!-- SKILLS SECTION -->
     <section class="skills" id="skills">
         <div class="contenido-seccion">
-            <h2>Habilidades</h2>
+            <h2>Skills</h2>
             <div class="fila">
-                <!-- HABILIDADES TECNICAS -->
+                <!-- Technical Skill -->
 
                 
                 <div class="col">
-                    <h3>Habilidades Tecnicas</h3>
+                    <h3>Technical Skills</h3>
                     <div class="skill">
                         <span>Javascript</span>
                         <div class="barra-skill">
@@ -148,7 +144,7 @@
                         </div>
                     </div>
                     <div class="skill">
-                        <span>ReactJS (Cursando...)</span>
+                        <span>ReactJS (In Progress...)</span>
                         <div class="barra-skill">
                             <div class="progreso" data-porcentaje="40">
                                 <span>40%</span>
@@ -165,11 +161,11 @@
                     </div>
 
                 </div>
-                <!-- Habilidades Profesionales -->
+                <!-- Professional Skills -->
                 <div class="col">
-                    <h3>Habilidades Profesionales</h3>
+                    <h3>Professional Skills</h3>
                     <div class="skill">
-                        <span>Comunicación</span>
+                        <span>Comunication</span>
                         <div class="barra-skill">
                             <div class="progreso" data-porcentaje="80">
                                 <span>80%</span>
@@ -177,7 +173,7 @@
                         </div>
                     </div>
                     <div class="skill">
-                        <span>Trabajo en Equipo</span>
+                        <span>Teamwork</span>
                         <div class="barra-skill">
                             <div class="progreso" data-porcentaje="70">
                                 <span>70%</span>
@@ -185,7 +181,7 @@
                         </div>
                     </div>
                     <div class="skill">
-                        <span>Creatividad</span>
+                        <span>Creativity</span>
                         <div class="barra-skill">
                             <div class="progreso" data-porcentaje="80">
                                 <span>80%</span>
@@ -193,7 +189,7 @@
                         </div>
                     </div>
                     <div class="skill">
-                        <span>Dedicación</span>
+                        <span>Dedication</span>
                         <div class="barra-skill">
                             <div class="progreso" data-porcentaje="90">
                                 <span>90%</span>
@@ -239,10 +235,10 @@
                             <div class="circuloi"></div>
                         </div>
                     </div> -->
-                    <h3>Cursos</h3>
+                    <h3>Courses</h3>
                     <div class="item izq">
-                        <h4>Reparador Básico de PC</h4>
-                        <span class="casa">NASA COMPUTACION</span>
+                        <h4>Basic PC Repair</h4>
+                        <span class="casa">NASA COMPUTERS</span>
                         <span class="fecha">2013 - 2013</span>
                         <div class="conectori">
                             <div class="circuloi"></div>
@@ -250,7 +246,7 @@
                     </div>
 
                     <div class="item izq">
-                        <h4>Operador de Aplicaciones Graficas</h4>
+                        <h4>Graphic Applications Operator</h4>
                         <span class="casa">UTN</span>
                         <span class="fecha">2013 - 2013</span>
                         <div class="conectori">
@@ -258,7 +254,7 @@
                         </div>
                     </div>
                     <div class="item izq">
-                        <h4>Desarrollo Web</h4>
+                        <h4>Web Development</h4>
                         <span class="casa">CODERHOUSE</span>
                         <span class="fecha">2023 - 2023</span>
                         <div class="conectori">
@@ -284,25 +280,21 @@
                 </div>
 
                 <div class="col derecha">
-                    <h3>Experiencia de trabajo</h3>
+                    <h3>Work Experience</h3>
                     <div class="item der">
-                        <h4>Oficial Tecnico en Proyeccion</h4>
+                        <h4>Technical Officer in Projection</h4>
                         <span class="casa">VILLAGE CINES</span>
                         <span class="fecha">2013 - 2015</span>
-                        <p>Armado y proyeccion de Peliculas y
-                            mantenimiento al Complejo</p>
+                        <p>Assembly and projection of films, and maintenance of the complex.</p>
                         <div class="conectord">
                             <div class="circulod"></div>
                         </div>
                     </div>
                     <div class="item der">
-                        <h4>Cajero</h4>
+                        <h4>Cashier</h4>
                         <span class="casa">Pagofacil - Rapipago</span>
                         <span class="fecha">2016 - 2022</span>
-                        <p>Atencion al cliente, apertura y cierre de caja,
-                            control de recaudacion del efectivo y
-                            cobranzas de Facturas
-                        </p>
+                        <p>Customer service, cash opening and closing, control of cash collection, and payment of bills.</p>
                         <div class="conectord">
                             <div class="circulod"></div>
                         </div>
@@ -311,7 +303,7 @@
                         <h4>Barman</h4>
                         <span class="casa">City Center Rosario</span>
                         <span class="fecha">2022 - 2023</span>
-                        <p>Atencion al cliente y Preparacion de tragos</p>
+                        <p>Customer service and cocktail preparation.</p>
                         <div class="conectord">
                             <div class="circulod"></div>
                         </div>
@@ -327,11 +319,11 @@
             <h2>PORTFOLIO</h2>
             <div class="galeria">
                 <div class="proyecto">
-                    <img src="./images/portfolio/Buhonero.png" alt="buhonero e-commerce">
+                    <img src="../images/portfolio/Buhonero.png" alt="buhonero e-commerce">
 
                     <div class="overlay">
                         <h3>e-commerce el "Buhonero"</h3>
-                        <p>Captura de Pantalla</p>
+                        <p>Screen Capture</p>
                     </div>
                 </div>
             </div>
@@ -377,26 +369,26 @@
         </div> >--!
         
 
-    <!-- SECCION CONTACTO -->
+    <!-- CONTACT SECTION -->
     <section id="contacto" class="contacto">
         <div class="contenido-seccion">
-            <h2>CONTACTO</h2>
+            <h2>CONTACT</h2>
             <div class="fila">
                 <!-- Formulario -->
                 <div class="col">
-                    <input type="text" placeholder="Tú Nombre">
-                    <input type="text" placeholder="Número telefónico">
-                    <input type="text" placeholder="Dirección de correo">
-                    <input type="text" placeholder="Tema">
-                    <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                    <input type="text" placeholder="Your Name">
+                    <input type="text" placeholder="Phone Number">
+                    <input type="text" placeholder="Email Address">
+                    <input type="text" placeholder="Subject">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Message"></textarea>
                     <button>
-                        Enviar Mensaje <i class="bi bi-send-fill"></i>
+                        Send Message <i class="bi bi-send-fill"></i>
                         <span class="overlay"></span>
                     </button>
                 </div>
                 <!-- Mapa -->
                 <div class="col">
-                    <img src="./images/background/ubicacion.png" alt="">
+                    <img src="../images/background/ubicacion.png" alt="">
                     <div class="info">
                         <ul>
                             <li>
@@ -405,7 +397,7 @@
                             </li>
                             <li>
                                 <i class="bi bi-telephone-fill"></i>
-                                Contacto: +54 341 381-6364
+                                Contact: +54 341 381-6364
                             </li>
                             <li>
                                 <i class="bi bi-envelope-fill"></i>
@@ -431,6 +423,6 @@
         </div>
     </footer>
 
-    <script src="./js/main.js"></script>
+    <script src="../js/main.js"></script>
 </body>
 </html>
